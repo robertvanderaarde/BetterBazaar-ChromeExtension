@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "name": "Tibia Better Bazaar",
+    "version": "1.4",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.tibia.com/charactertrade/*"
+            ],
+            "js": ["jquery-3.5.1.min.js", "global_auctions.js"]
+        }
+    ],
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+    "web_accessible_resources": [
+        "icons/icon_12.png",
+        "world_sales.txt",
+        "search_box_2.html",
+        "notification_box.html"
+    ],
+    "permissions": [
+        "storage"
+    ],
+    "icons": {
+        "12": "icons/icon_12.png",
+        "32": "icons/icon_32.png",
+        "64": "icons/icon_64.png",
+        "128": "icons/icon_128.png"
+    }
+}

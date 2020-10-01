@@ -1,0 +1,137 @@
+<div class="TableContainer"> <div class="CaptionContainer"> <div class="CaptionInnerContainer"> <span class="CaptionEdgeLeftTop" style="background-image:url(https://static.tibia.com/images/global/content/box-frame-edge.gif);"></span> <span class="CaptionEdgeRightTop" style="background-image:url(https://static.tibia.com/images/global/content/box-frame-edge.gif);"></span> <span class="CaptionBorderTop" style="background-image:url(https://static.tibia.com/images/global/content/table-headline-border.gif);"></span> <span class="CaptionVerticalLeft" style="background-image:url(https://static.tibia.com/images/global/content/box-frame-vertical.gif);"></span> <div class="Text" onmouseover="ActivateHelperDiv($(this), 'Estimates the value of a character using the Tibia Better Bazaar extension.', '<div>• Fill out the details in the character fields then hit \'Submit\' to get an estimated value.</div><div>• Predictions <b>may take some time to complete</b>, please be patient!</div><div>• Non-standard character predictions will not be accurate. (e.g. High level with very low skills, etc).', '');" onmouseout="$('#HelperDivContainer').hide();">Better Bazaar Price Estimation</div> <span class="CaptionVerticalRight" style="background-image:url(https://static.tibia.com/images/global/content/box-frame-vertical.gif);"></span> <span class="CaptionBorderBottom" style="background-image:url(https://static.tibia.com/images/global/content/table-headline-border.gif);"></span> <span class="CaptionEdgeLeftBottom" style="background-image:url(https://static.tibia.com/images/global/content/box-frame-edge.gif);"></span> <span class="CaptionEdgeRightBottom" style="background-image:url(https://static.tibia.com/images/global/content/box-frame-edge.gif);"></span> </div> </div><table class="Table4" cellpadding="0" cellspacing="0">  <tbody><tr> <td> <div class="InnerTableContainer"> <table style="width:100%;"><tbody> <tr><td>
+    <div class="TableShadowContainerRightTop">
+        <div class="TableShadowRightTop" style="background-image:url(https://static.tibia.com/images/global/content/table-shadow-rt.gif);"></div>
+    </div>
+    <div class="TableContentAndRightShadow" style="background-image:url(https://static.tibia.com/images/global/content/table-shadow-rm.gif);">
+        <div class="TableContentContainer">
+            <table class="TableContent" width="100%" style="border:1px solid #faf0d7;">
+                <tbody>
+                    <tr>
+                        <td>
+                            <span>
+                                <div class="BigButton" style="background-image:url(https://static.tibia.com/images/global/buttons/sbutton.gif); float: right;">
+                                    <div>
+                                        <div style="background-image:url(https://static.tibia.com/images/global/buttons/sbutton_over.gif);">
+                                        </div>
+                                        <input id="predict_submit" class="ButtonText" type="image" src="https://static.tibia.com/images/global/buttons/_sbutton_submit.gif">
+                                    </div>
+                                </div>
+                                <div class="DisplayOptionsContent">
+                                    <div class="LabelV100 DisplayOptionsLabel">Character:</div>
+                                    <input id="predict_level" class="AuctionInput" title="Character Level" placeholder="(char level)" type="number" name="filter_levelrangefrom" value="" maxlength="4" style="width: 7.5em;">
+                                    <select title="Character Vocation" id="predict_vocation" ,="" name="filter_profession" class="AuctionInput">
+                                        <option value="1">Druid</option>
+                                        <option value="2">Knight</option>
+                                        <option value="3">Paladin</option>
+                                        <option value="4">Sorcerer</option>
+                                    </select>
+                                    <select title="Character World" id="predict_world" class="AuctionInput">
+                                        <option value="Antica">Antica</option>
+                                        <option value="Assombra">Assombra</option>
+                                        <option value="Astera">Astera</option>
+                                        <option value="Belluma">Belluma</option>
+                                        <option value="Belobra">Belobra</option>
+                                        <option value="Bona">Bona</option>
+                                        <option value="Calmera">Calmera</option>
+                                        <option value="Carnera">Carnera</option>
+                                        <option value="Celebra">Celebra</option>
+                                        <option value="Celesta">Celesta</option>
+                                        <option value="Concorda">Concorda</option>
+                                        <option value="Cosera">Cosera</option>
+                                        <option value="Damora">Damora</option>
+                                        <option value="Descubra">Descubra</option>
+                                        <option value="Dibra">Dibra</option>
+                                        <option value="Duna">Duna</option>
+                                        <option value="Emera">Emera</option>
+                                        <option value="Epoca">Epoca</option>
+                                        <option value="Estela">Estela</option>
+                                        <option value="Faluna">Faluna</option>
+                                        <option value="Ferobra">Ferobra</option>
+                                        <option value="Firmera">Firmera</option>
+                                        <option value="Funera">Funera</option>
+                                        <option value="Furia">Furia</option>
+                                        <option value="Garnera">Garnera</option>
+                                        <option value="Gentebra">Gentebra</option>
+                                        <option value="Gladera">Gladera</option>
+                                        <option value="Harmonia">Harmonia</option>
+                                        <option value="Helera">Helera</option>
+                                        <option value="Honbra">Honbra</option>
+                                        <option value="Impera">Impera</option>
+                                        <option value="Inabra">Inabra</option>
+                                        <option value="Javibra">Javibra</option>
+                                        <option value="Jonera">Jonera</option>
+                                        <option value="Kalibra">Kalibra</option>
+                                        <option value="Kenora">Kenora</option>
+                                        <option value="Libertabra">Libertabra</option>
+                                        <option value="Lobera">Lobera</option>
+                                        <option value="Luminera">Luminera</option>
+                                        <option value="Lutabra">Lutabra</option>
+                                        <option value="Macabra">Macabra</option>
+                                        <option value="Menera">Menera</option>
+                                        <option value="Mitigera">Mitigera</option>
+                                        <option value="Monza">Monza</option>
+                                        <option value="Nefera">Nefera</option>
+                                        <option value="Noctera">Noctera</option>
+                                        <option value="Nossobra">Nossobra</option>
+                                        <option value="Olera">Olera</option>
+                                        <option value="Ombra">Ombra</option>
+                                        <option value="Pacembra">Pacembra</option>
+                                        <option value="Pacera">Pacera</option>
+                                        <option value="Peloria">Peloria</option>
+                                        <option value="Premia">Premia</option>
+                                        <option value="Pyra">Pyra</option>
+                                        <option value="Quelibra">Quelibra</option>
+                                        <option value="Quintera">Quintera</option>
+                                        <option value="Ragna">Ragna</option>
+                                        <option value="Refugia">Refugia</option>
+                                        <option value="Relania">Relania</option>
+                                        <option value="Relembra">Relembra</option>
+                                        <option value="Secura">Secura</option>
+                                        <option value="Serdebra">Serdebra</option>
+                                        <option value="Serenebra">Serenebra</option>
+                                        <option value="Solidera">Solidera</option>
+                                        <option value="Talera">Talera</option>
+                                        <option value="Torpera">Torpera</option>
+                                        <option value="Tortura">Tortura</option>
+                                        <option value="Unica">Unica</option>
+                                        <option value="Venebra">Venebra</option>
+                                        <option value="Vita">Vita</option>
+                                        <option value="Vunira">Vunira</option>
+                                        <option value="Wintera">Wintera</option>
+                                        <option value="Xandebra">Xandebra</option>
+                                        <option value="Xylona">Xylona</option>
+                                        <option value="Yonabra">Yonabra</option>
+                                        <option value="Ysolera">Ysolera</option>
+                                        <option value="Zenobra">Zenobra</option>
+                                        <option value="Zuna">Zuna</option>
+                                        <option value="Zunera">Zunera</option>
+                                    </select>
+                                </div>
+                                <div class="DisplayOptionsContent">
+                                    <div class="LabelV100 DisplayOptionsLabel"></div>
+                                    <input title="Character Melee Skill" id="predict_melee" class="AuctionInput" placeholder="(melee skill)" type="number" value="" maxlength="4" style="width: 7.5em;">
+                                    <input title="Character Distance Skill" id="predict_dist" class="AuctionInput" placeholder="(distance skill)" type="number" value="" maxlength="4" style="width: 8em;">
+                                    <input title="Character Magic Level" id="predict_mlevel" class="AuctionInput" placeholder="(magic level)" type="number" value="" maxlength="4" style="width: 8em;">
+
+                                    <div class="ShortAuctionDataLabel" style="font-weight: 700; float: right; padding-top: 5px;">Estimated Value:
+                                        <b class="ShortAuctionDataLabel" id="predict_value">0</b>
+                                        <img src="https://static.tibia.com/images//account/icon-tibiacoin.png" class="VSCCoinImages" title="Transferable Tibia Coins">
+                                    </div>
+                                </div>
+                                
+                            </span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="TableShadowContainer">
+        <div class="TableBottomShadow" style="background-image:url(https://static.tibia.com/images/global/content/table-shadow-bm.gif);">
+            <div class="TableBottomLeftShadow" style="background-image:url(https://static.tibia.com/images/global/content/table-shadow-bl.gif);">
+            </div>
+            <div class="TableBottomRightShadow" style="background-image:url(https://static.tibia.com/images/global/content/table-shadow-br.gif);">
+            </div>
+        </div>
+    </div>
+</td></tr></tbody></table> </div> </td> </tr> </tbody></table></div>
